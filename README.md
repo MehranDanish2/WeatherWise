@@ -1,2 +1,2 @@
-# WeatherWise
+# WeatherWise app
 Hello World!
