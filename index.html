@@ -38,6 +38,8 @@
         <script>
             const api_key = "6a4aa142b80cd20b4b767d7075ddba1b";
             const api_url = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=Karachi";
+            const search_box = document.querySelector(".search input");
+            const search_btn = document.querySelector(".search button");
 
             async function checkWeather(city) {
                 const response = await fetch(api_url + '&appid=${api_key}');
@@ -50,6 +52,10 @@
                 document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
                 document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
             }
+
+            search_btn.addEventListener("click", ()=>{
+                checkWeather(search_box.value);
+            })
 
             checkWeather();
         </script>
