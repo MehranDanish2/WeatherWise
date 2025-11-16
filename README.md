@@ -5,7 +5,7 @@ A simple, responsive web application to fetch and display real-time weather data
 1. Search by city name to retrieve current weather conditions (temperature, humidity, wind speed, etc.).<br>
 2. Clean, mobile-friendly UI with responsive layout.<br>
 3. Error handling for invalid input or network/API failures.<br>
-4. Easy to extend: you can plug in additional APIs (like forecast data) or enhance the UI.<br><br>
+4. Scalable code infrastructure to plug in additional APIs (like forecast data) or enhance the UI.<br><br>
 
 🔧 Technology Stack<br>
 1. HTML – Semantic structure and mark-up for the UI.<br>
