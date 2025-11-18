@@ -25,3 +25,32 @@ A simple, responsive web application to fetch and display real-time weather data
 - [@MehranDanish2](https://github.com/MehranDanish2)
 - [@hassan-5p55](https://github.com/hassan-5p55)
 - [@MuhammadAqib644](https://github.com/MuhammadAqib644)
+
+
+
+## Deployment(on Windows) 
+
+Clone this repository to vs code and open with live server:
+
+### cmd
+```bash
+  git clone url
+```
+
+
+## FAQ
+
+#### Is weather up to date?
+
+Yes. Due to the openweather api, we can have up to date weather information.
+
+#### What if I misstype a city?
+
+The app will correct slight misstypes but will prompt error messages when a misstype is entered.
+
+
+## Usage/Examples
+
+![Demo GIF](assets/output.gif)
+<br>(Chrome browser)
+
