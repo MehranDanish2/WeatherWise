@@ -40,7 +40,7 @@ Clone this repository to vs code and open with live server:
 
 ## FAQ
 
-#### Is weather up to date?
+#### Is weather information up to date?
 
 Yes. Due to the openweather api, we can have up to date weather information.
 
@@ -50,6 +50,8 @@ The app will correct slight misstypes but will prompt error messages when a miss
 
 
 ## Usage/Examples
+
+[Live Link](https://usmanawan50.github.io/WeatherWiseDemo/)
 
 ![Demo GIF](assets/output.gif)
 <br>(Chrome browser)
